@@ -1,0 +1,98 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "eslint:recommended",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "plugins": ["react", "react-hooks", "simple-import-sort", "unused-imports", "@typescript-eslint"],
+  "rules": {
+    "@typescript-eslint/no-empty-function": "warn",
+    "@typescript-eslint/no-empty-interface": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-var-requires": "warn",
+    "class-methods-use-this": "warn",
+    "comma-dangle": "off",
+    "global-require": "off",
+    "import/extensions": "off",
+    "import/no-anonymous-default-export": "off",
+    "import/no-cycle": "warn",
+    "import/no-dynamic-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-named-as-default": "warn",
+    "import/no-named-as-default-member": "warn",
+    "import/no-unresolved": "warn",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/anchor-is-valid": "warn",
+    "no-await-in-loop": "warn",
+    "no-param-reassign": "warn",
+    "no-plusplus": "warn",
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": "warn",
+    "no-unused-vars": "warn",
+    "no-use-before-define": "off",
+    "prettier/prettier": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/button-has-type": "warn",
+    "react/display-name": "off",
+    "react/forbid-prop-types": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-curly-brace-presence": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".ts", ".tsx", ".js", ".jsx"]
+      }
+    ],
+    "react/jsx-no-useless-fragment": [
+      "warn",
+      {
+        "allowExpressions": true
+      }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "react/no-array-index-key": "warn",
+    "react/no-danger": "warn",
+    "react/no-unstable-nested-components": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
+    "tailwindcss/classnames-order": "error",
+    "tailwindcss/no-custom-classname": "off",
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "caseInsensitive": true,
+          "order": "asc"
+        },
+        "groups": ["external", "builtin", "internal", ["parent", "sibling"], "index", "type", "object"],
+        "newlines-between": "always",
+        "pathGroups": [
+          {
+            "group": "external",
+            "pattern": "react",
+            "position": "before"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react"]
+      }
+    ]
+  }
+}

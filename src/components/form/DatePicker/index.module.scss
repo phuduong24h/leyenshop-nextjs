@@ -1,0 +1,17 @@
+.container {
+  :global {
+    .ant-picker {
+      border-radius: 4px !important;
+
+      .ant-picker-input > input {
+        color: var(--text-1);
+      }
+    }
+    .ant-picker-outlined {
+      border-width: 0px;
+    }
+    .anticon {
+      color: var(--text-1);
+    }
+  }
+}

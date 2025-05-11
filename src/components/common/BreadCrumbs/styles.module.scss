@@ -1,0 +1,12 @@
+.container {
+  &__item {
+    &--active {
+      color: var(--text-primary) !important;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &--inactive {
+      color: var(--text-secondary) !important;
+    }
+  }
+}

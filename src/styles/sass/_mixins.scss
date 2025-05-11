@@ -1,0 +1,82 @@
+@mixin max450 {
+  @media (width <= 450px) {
+    @content;
+  }
+}
+
+@mixin max575 {
+  @media (width <= 575px) {
+    @content;
+  }
+}
+
+@mixin max767 {
+  @media (width <= 767px) {
+    @content;
+  }
+}
+
+@mixin max991 {
+  @media (width <= 991px) {
+    @content;
+  }
+}
+
+@mixin max1024 {
+  @media (width <= 1024px) {
+    @content;
+  }
+}
+
+@mixin max1199 {
+  @media (width <= 1199px) {
+    @content;
+  }
+}
+
+@mixin max1366 {
+  @media (width <= 1366px) {
+    @content;
+  }
+}
+
+@mixin max1399 {
+  @media (width <= 1399px) {
+    @content;
+  }
+}
+
+@mixin max1450 {
+  @media (width <= 1450px) {
+    @content;
+  }
+}
+
+@mixin max1599 {
+  @media (width <= 1599px) {
+    @content;
+  }
+}
+
+@mixin max1699 {
+  @media (width <= 1699px) {
+    @content;
+  }
+}
+
+@mixin max1799 {
+  @media (width <= 1799px) {
+    @content;
+  }
+}
+
+@mixin animation-slide($name, $direction, $from, $to) {
+  @keyframes #{$name} {
+    0% {
+      #{$direction}: $from;
+    }
+    100% {
+      #{$direction}: $to;
+    }
+  }
+}

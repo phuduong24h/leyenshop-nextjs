@@ -1,0 +1,17 @@
+:root {
+  --primary: #001da1;
+  --primary-active: #001572;
+  --secondary: #f5f2df;
+  --secondary-active: #fcf2b4;
+  --background-primary: #f5f2df;
+  --background-disable: #d2d2d2;
+  --text-primary: #001da1;
+  --text-secondary: #b6c3fd;
+  --text-on-primary: #f5f2df;
+  --text-disable: #adadad;
+  --border-primary: #001da1;
+  --border-disable: #c7c7c7;
+  --state-error: #e40000;
+
+  --font-roboto: 'Roboto', sans-serif;
+}

@@ -1,0 +1,9 @@
+{
+    "code_error": {
+        "required": "Please enter."
+    },
+    "common": {
+        "yes": "Yes",
+        "no": "No"
+    }
+}

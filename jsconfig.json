@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "app": ["app/index"],
+      "app/*": ["app/*"],
+      "assets": ["assets/index"],
+      "assets/*": ["assets/*"],
+      "components": ["components/index"],
+      "components/*": ["components/*"],
+      "configs": ["configs/index"],
+      "configs/*": ["configs/*"],
+      "constants": ["constants/index"],
+      "constants/*": ["constants/*"],
+      "hooks": ["hooks/index"],
+      "hooks/*": ["hooks/*"],
+      "lang": ["lang/index"],
+      "lang/*": ["lang/*"],
+      "routes": ["routes/index"],
+      "routes/*": ["routes/*"],
+      "stores": ["stores/index"],
+      "stores/*": ["stores/*"],
+      "styles": ["styles/index"],
+      "styles/*": ["styles/*"],
+      "utils": ["utils/index"],
+      "utils/*": ["utils/*"],
+      "views": ["views/index"],
+      "views/*": ["views/*"],
+      "src/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
+}

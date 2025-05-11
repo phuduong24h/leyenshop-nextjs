@@ -1,0 +1,22 @@
+.button {
+  :active {
+    scale: 0.95;
+  }
+
+  &--outline {
+    border-width: 1px;
+    border-color: var(--border-primary);
+    background-color: transparent;
+    color: var(--text-primary);
+  }
+
+  &--sm {
+    padding-block: 6px;
+  }
+  &--md {
+    padding-block: 10px;
+  }
+  &--lg {
+    padding-block: 14px;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "printWidth": 120,
+  "endOfLine": "auto",
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    ".*[cC]lass.*"
+  ],
+  "tailwindFunctions": [
+    "clsx",
+    "classNames",
+    "twMerge",
+    "cn"
+  ]
+}

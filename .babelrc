@@ -1,0 +1,27 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "app": "./src/app",
+          "assets": "./src/assets",
+          "components": "./src/components",
+          "configs": "./src/configs",
+          "constants": "./src/constants",
+          "hooks": "./src/hooks",
+          "lang": "./src/lang",
+          "routes": "./src/routes",
+          "stores": "./src/stores",
+          "styles": "./src/styles",
+          "utils": "./src/utils",
+          "views": "./src/views",
+          "src": "./src"
+        },
+        "extensions": [".js", ".jsx", ".tsx", ".ts"]
+      }
+    ]
+  ]
+}
